@@ -9,6 +9,5 @@ puts "Choose a number between 1-9"
 input = gets.strip
 value = "X"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = input_to_index(input)
-move(board, , value)
+move(board,input_to_index(input), value)
 display_board(board)
